@@ -18,6 +18,7 @@ namespace Shared
                 var tMessage = Errors.ResourceManager.GetString(
                         pVariable, Thread.CurrentThread.CurrentUICulture);
 
+                
                 return string.Format(tMessage, pParameters);
             }
             catch (Exception ex)

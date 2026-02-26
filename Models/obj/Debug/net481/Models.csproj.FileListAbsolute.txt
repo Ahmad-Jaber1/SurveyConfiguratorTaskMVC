@@ -40,3 +40,4 @@ D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Models\obj\Debug\ne
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Models\obj\Debug\net481\Models.csproj.Up2Date
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Models\obj\Debug\net481\Models.dll
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Models\obj\Debug\net481\Models.pdb
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Models\obj\Debug\net481\Models.sourcelink.json

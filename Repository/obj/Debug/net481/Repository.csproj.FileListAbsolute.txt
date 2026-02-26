@@ -132,3 +132,4 @@ D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Repository\obj\Debu
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Repository\obj\Debug\net481\Repository.csproj.Up2Date
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Repository\obj\Debug\net481\Repository.dll
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Repository\obj\Debug\net481\Repository.pdb
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Repository\obj\Debug\net481\Repository.sourcelink.json

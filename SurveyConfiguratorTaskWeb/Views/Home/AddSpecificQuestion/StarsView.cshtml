@@ -1,0 +1,29 @@
+﻿@model SurveyConfiguratorTaskWeb.Models.StarsQuestionViewModel
+@{
+    ViewBag.Title = "StarsView";
+    const string STARS_COUNT = "Stars Count";
+    const string CREATE = "Create";
+}
+
+<h2>StarsView</h2>
+
+@using (Html.BeginForm("AddStarsQuestion", "Home"))
+{
+    @Html.AntiForgeryToken()
+
+    <div class="form-horizontal">
+
+        <hr />
+        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+
+        <div class="form-group">
+            @Html.LabelFor(model => model.StarsCount, htmlAttributes: new { @class = "control-label col-md-2" })
+
+            <div class="col-md-10">
+                @Html.EditorFor(model => model.StarsCount, new { htmlAttributes = new { @class = "form-control" } })
+                @Html.ValidationMessageFor(model => model.StarsCount, "", new { @class = "text-danger" })
+            </div>
+        </div>
+        <button type="submit" class="btn btn-info" style="margin-top:20px">@CREATE</button>
+    </div>
+}

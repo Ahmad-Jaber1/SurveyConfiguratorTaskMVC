@@ -3,16 +3,12 @@
   "WorkspaceRootPath": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskweb\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|solutionrelative:surveyconfiguratortaskweb\\views\\home\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|solutionrelative:surveyconfiguratortaskweb\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|solutionrelative:surveyconfiguratortaskweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|d:\\surveyconfiguratortask\\surveyconfiguratortaskversion4.8.1\\surveyconfiguratortaskweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{195D9857-6486-41C0-8314-04EC135818B7}|SurveyConfiguratorTaskWeb\\SurveyConfiguratorTaskWeb.csproj|solutionrelative:surveyconfiguratortaskweb\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,8 +18,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "SurveyConfiguratorTaskWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "SurveyConfiguratorTaskWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABsAAAAAAAAAAAAiwDEAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-26T11:42:01.238Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
@@ -31,40 +40,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Add.cshtml",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Home\\Add.cshtml",
-              "RelativeDocumentMoniker": "SurveyConfiguratorTaskWeb\\Views\\Home\\Add.cshtml",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Home\\Add.cshtml",
-              "RelativeToolTip": "SurveyConfiguratorTaskWeb\\Views\\Home\\Add.cshtml",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAcwCYAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-25T19:41:30.176Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Home\\Index.cshtml",
-              "RelativeDocumentMoniker": "SurveyConfiguratorTaskWeb\\Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Views\\Home\\Index.cshtml",
-              "RelativeToolTip": "SurveyConfiguratorTaskWeb\\Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA8AAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2026-02-25T18:17:25.089Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "SurveyConfiguratorTaskWeb\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\SurveyConfiguratorTask\\SurveyConfiguratorTaskVersion4.8.1\\SurveyConfiguratorTaskWeb\\Controllers\\HomeController.cs",
               "RelativeToolTip": "SurveyConfiguratorTaskWeb\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwBcAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAHQAAAAAAAAAAAAkwIkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-25T18:13:58.462Z",
+              "WhenOpened": "2026-02-26T11:06:38.72Z",
               "EditorCaption": ""
             }
           ]

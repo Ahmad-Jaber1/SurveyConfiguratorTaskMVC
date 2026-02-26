@@ -48,7 +48,6 @@ namespace SurveyConfiguratorTask.Models
 
         public void SetSmileyCount(int pCount)
         {
-
             try
             {
                 //SmileyCount must not be less than 2 or greater than 5 
@@ -68,10 +67,6 @@ namespace SurveyConfiguratorTask.Models
             }
 
         }
-
-        
-
-        
 
     }
 }

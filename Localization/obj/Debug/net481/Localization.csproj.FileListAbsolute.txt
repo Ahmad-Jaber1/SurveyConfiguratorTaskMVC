@@ -50,3 +50,6 @@ D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\De
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localiza.6EA8961D.Up2Date
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localization.dll
 D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localization.pdb
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localization.Labels.resources
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localization.Labels.ar.resources
+D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\obj\Debug\net481\Localization.sourcelink.json

@@ -1,0 +1,50 @@
+﻿@model Shared.Result<List<SurveyConfiguratorTask.Models.Question>>
+@{
+    ViewBag.Title = "Home Page";
+    const string QUESTION_TYPE = "Question Type";
+    const string QUESTION_TEXT = "Question Text";
+    const string QUESTION_ORDER = "Question Order";
+    const string ACTIONS = "Actions";
+    const string EDIT_BUTTON = "Edit";
+    const string DELETE_BUTTON = "Delete";
+    const string ADD_BUTTON = "Add";
+}
+
+<div class="card">
+    <div class="card-header d-flex justify-content-between align-items-center">
+        <h5 class="mb-0">Questions</h5>
+        @Html.ActionLink(ADD_BUTTON, "Add", new {},htmlAttributes: new { @class = "btn btn-info" })
+
+    </div>
+
+    <div class="card-body">
+        <table class="table table-hover table-bordered">
+            <thead class="thead-dark">
+                <tr>
+                    <th>@QUESTION_TEXT</th>
+                    <th>@QUESTION_ORDER</th>
+                    <th>@QUESTION_TYPE</th>
+                    <th>@ACTIONS</th>
+
+                </tr>
+
+            </thead>
+
+            @foreach (SurveyConfiguratorTask.Models.Question question in Model.Data)
+            {
+                <tr>
+                    <td>@question.Text</td>
+                    <td>@question.Order</td>
+                    <td>@question.TypeQuestion</td>
+                    <td>
+                        @Html.ActionLink(EDIT_BUTTON, "Edit", new { question.Id }, new { @class = "btn btn-info" })
+
+                        @Html.ActionLink(DELETE_BUTTON, "Delete", new { question.Id }, new { @class = "btn btn-danger" })
+
+                    </td>
+                </tr>
+            }
+        </table>
+    </div>
+</div>
+

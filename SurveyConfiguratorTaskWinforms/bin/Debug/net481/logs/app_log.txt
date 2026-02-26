@@ -1,0 +1,261 @@
+2026-02-23 14:19:42.369 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 52
+
+============================================================
+2026-02-23 14:19:42.449 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:19:42.467 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 59
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\Program.cs:line 34
+
+============================================================
+2026-02-23 14:20:07.725 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 52
+
+============================================================
+2026-02-23 14:20:07.791 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:20:07.797 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 59
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\Program.cs:line 34
+
+============================================================
+2026-02-23 14:20:49.862 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 52
+
+============================================================
+2026-02-23 14:20:49.972 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:20:49.992 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\MainForm.cs:line 59
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTask\Program.cs:line 34
+
+============================================================
+2026-02-23 14:29:22.126 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 51
+
+============================================================
+2026-02-23 14:29:22.190 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:29:22.206 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 58
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\Program.cs:line 34
+
+============================================================
+2026-02-23 14:29:37.614 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 51
+
+============================================================
+2026-02-23 14:29:37.702 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:29:37.724 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 58
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\Program.cs:line 34
+
+============================================================
+2026-02-23 14:30:15.639 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 51
+
+============================================================
+2026-02-23 14:30:15.690 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:32:17.455 | Error | 
+Message    : Unexpected error occurred while create MainForm object.
+Exception  :
+System.Resources.MissingManifestResourceException: Could not find any resources appropriate for the specified culture or the neutral culture.  Make sure "SurveyConfiguratorTask.MainForm.resources" was correctly embedded or linked into assembly "SurveyConfiguratorTaskWinforms" at compile time, or that all the satellite assemblies required are loadable and fully signed.
+   at System.Resources.ManifestBasedResourceGroveler.HandleResourceStreamMissing(String fileName)
+   at System.Resources.ManifestBasedResourceGroveler.GrovelForResourceSet(CultureInfo culture, Dictionary`2 localResourceSets, Boolean tryParents, Boolean createIfNotExists, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo requestedCulture, Boolean createIfNotExists, Boolean tryParents, StackCrawlMark& stackMark)
+   at System.Resources.ResourceManager.InternalGetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.Resources.ResourceManager.GetResourceSet(CultureInfo culture, Boolean createIfNotExists, Boolean tryParents)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.FillResources(CultureInfo culture, ResourceSet& resourceSet)
+   at System.ComponentModel.ComponentResourceManager.ApplyResources(Object value, String objectName, CultureInfo culture)
+   at SurveyConfiguratorTask.MainForm.InitializeComponent() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.Designer.cs:line 80
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 51
+
+============================================================
+2026-02-23 14:32:17.534 | Error | 
+Message    : Unexpected error occurred while try get error message using localizer .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 21
+
+============================================================
+2026-02-23 14:32:17.569 | Error | 
+Message    : Unexpected error occurred while start app from program.cs .
+Exception  :
+System.ArgumentNullException: Value cannot be null.
+Parameter name: format
+   at System.String.FormatHelper(IFormatProvider provider, String format, ParamsArray args)
+   at System.String.Format(String format, Object[] args)
+   at Shared.ErrorLocalizer.GetMessage(String pVariable, String[] pParameters) in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\Localization\ErrorLocalizer.cs:line 27
+   at SurveyConfiguratorTask.MainForm..ctor() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\MainForm.cs:line 58
+   at SurveyConfiguratorTask.Program.Main() in D:\SurveyConfiguratorTask\SurveyConfiguratorTaskVersion4.8.1\SurveyConfiguratorTaskWinforms\Program.cs:line 34
+
+============================================================

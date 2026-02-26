@@ -1,0 +1,46 @@
+using Microsoft.Extensions.Logging;
+using Models;
+using Repository;
+using Serilog;
+using Services;
+using Shared;
+using SurveyConfiguratorTask.Models;
+using SurveyConfiguratorTask.Repo;
+using SurveyConfiguratorTaskWinforms;
+using System;
+using System.Configuration;
+
+using System.Windows.Forms;
+
+
+namespace SurveyConfiguratorTask
+{
+    internal static class Program
+    {
+        /// <summary>
+        ///  The main entry point for the application.
+        /// </summary>
+        [STAThread]
+        static void Main()
+        {
+            // To customize application configuration such as set high DPI settings or default font,
+            // see https://aka.ms/applicationconfiguration.
+            try
+            {
+                LogConfiguration.Configure();
+
+
+                Application.EnableVisualStyles();
+                Application.SetCompatibleTextRenderingDefault(false);
+                Application.Run(new MainForm());
+
+            }
+            catch (Exception ex)
+            {
+                Log.Error(ex, "Unexpected error occurred while start app from program.cs .");
+                throw;
+            }
+        }
+    }
+    
+}
